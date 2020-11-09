@@ -1,0 +1,33 @@
+{
+  "name": "docler-case-study",
+  "version": "1.0.0",
+  "description": "Chat App",
+  "main": "index.js",
+  "proxy": "http://localhost:8000",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "react-scripts start"
+  },
+  "author": "Birsen Celik",
+  "license": "ISC",
+  "dependencies": {
+    "date-fns": "^2.16.1",
+    "node-sass": "^4.14.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-scripts": "^4.0.0",
+    "socket.io-client": "^3.0.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
