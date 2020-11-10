@@ -1,13 +1,40 @@
-- What is your app;
-It's a small chat app with socket.io and react
+# Chat App via React and Socket.io
 
-- How it works;
-Users connecting at the same adress http://localhost:3000/ and sending to message to each other. If they want to change settings conf. they should click settings button top of page.
 
-- Step-by-step on how could we setup and run it;
-You have to run server and client. for server you have go to main root --docler-case-study-- and write to console 'node server.js' server part running. for client you have go to client root 'cd client' and write to 'npm start'. The app start to run. You can outputs localhost:3000
+### About
+It's a small chat app between users through web browser. Application developed with socket.io and react.
 
-CheckList
+### How it works
+
+Users interacts each of them through sending text message and images at http://localhost:3000/. Chat App also allows to manage settings which is navigated through the Settings button. Settings are listed as respectively as below 
+
+* change clock display format
+* change username 
+* sending message through shortcuts (Shift + Enter)
+* reset all changes
+
+
+### Install
+
+First thing first, install `npm` dependencies by running:
+
+    npm install
+
+
+### Run
+
+for server you have go to main root --docler-case-study--
+
+    node server.js
+
+
+To start frontend application in development mode, you have go to client root:
+    
+    cd client
+    npm start
+
+
+### CheckList
 - [x] Chat message box to list messages;
 - [x] Input field where I can type and send messages;
 - [x] Users can send pictures via URL. When sent, this URL is rendered on the message box as an image;
