@@ -16,14 +16,14 @@ Users interacts each of them through sending text message and images at http://l
 
 ### Install
 
-First thing first, install `npm` dependencies by running:
+First thing, install `npm` dependencies by running:
 
     npm install
 
 
 ### Run
 
-for server you have go to main root --docler-case-study--
+For server you have go to main root --docler-case-study--
 
     node server.js
 
